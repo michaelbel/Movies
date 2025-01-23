@@ -28,8 +28,8 @@
         android:localeConfig="@xml/locale_config"
         android:supportsRtl="true"
         android:theme="@style/Theme.Movies.Starting"
-        android:icon="@mipmap/ic_launcher_red"
-        android:roundIcon="@mipmap/ic_launcher_red"
+        android:icon="@drawable/ic_launcher_red"
+        android:roundIcon="@drawable/ic_launcher_red"
         android:enableOnBackInvokedCallback="true"
         tools:ignore="UnusedAttribute">
 
@@ -136,8 +136,8 @@
             android:name="org.michaelbel.movies.RedIcon"
             android:enabled="true"
             android:exported="true"
-            android:icon="@mipmap/ic_launcher_red"
-            android:roundIcon="@mipmap/ic_launcher_red"
+            android:icon="@drawable/ic_launcher_red"
+            android:roundIcon="@drawable/ic_launcher_red"
             android:targetActivity="org.michaelbel.movies.MainActivity">
 
             <intent-filter>
@@ -152,8 +152,8 @@
             android:name="org.michaelbel.movies.PurpleIcon"
             android:enabled="false"
             android:exported="true"
-            android:icon="@mipmap/ic_launcher_purple"
-            android:roundIcon="@mipmap/ic_launcher_purple"
+            android:icon="@drawable/ic_launcher_purple"
+            android:roundIcon="@drawable/ic_launcher_purple"
             android:targetActivity="org.michaelbel.movies.MainActivity">
 
             <intent-filter>
@@ -168,8 +168,8 @@
             android:name="org.michaelbel.movies.BrownIcon"
             android:enabled="false"
             android:exported="true"
-            android:icon="@mipmap/ic_launcher_brown"
-            android:roundIcon="@mipmap/ic_launcher_brown"
+            android:icon="@drawable/ic_launcher_brown"
+            android:roundIcon="@drawable/ic_launcher_brown"
             android:targetActivity="org.michaelbel.movies.MainActivity">
 
             <intent-filter>
@@ -184,8 +184,8 @@
             android:name="org.michaelbel.movies.AmoledIcon"
             android:enabled="false"
             android:exported="true"
-            android:icon="@mipmap/ic_launcher_amoled"
-            android:roundIcon="@mipmap/ic_launcher_amoled"
+            android:icon="@drawable/ic_launcher_amoled"
+            android:roundIcon="@drawable/ic_launcher_amoled"
             android:targetActivity="org.michaelbel.movies.MainActivity">
 
             <intent-filter>
