@@ -11,9 +11,11 @@ plugins {
 
 kotlin {
     js {
-        browser {}
+        browser()
     }
-    wasmJs()
+    wasmJs {
+        browser()
+    }
 
     sourceSets {
         commonMain.dependencies {
